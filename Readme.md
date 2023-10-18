@@ -8,7 +8,7 @@ This project sets up a classic web application using Docker Compose, consisting 
 
 ## Usage
 
-1. Clones this repository
+1. Clone this repository
 ``` bash
     git clone https://github.com/caidam/web-app-with-docker-compose.git
     cd web-app-with-docker-compose
