@@ -27,7 +27,7 @@ alternatively, you can start the project in development mode using the below com
 ```
 
 3. Access the application
-- Server: Server: Open your web browser and go to http://localhost:5050.
+- Server: Open your web browser and go to http://localhost:5050.
 - Client: Access the client application through http://localhost:8080.
 - Database: The database container is running internally and is managed by the application.
 
