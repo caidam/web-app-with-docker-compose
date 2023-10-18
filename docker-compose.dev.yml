@@ -9,8 +9,8 @@ services:
     client:
         build: ./client
         ports:
-          - 8081:80
-        command: npm run dev
+          - 8080:80
+        # command: npm run dev
         volumes:
             - ./client/src/:/app/src
 
