@@ -10,7 +10,7 @@ services:
         build: ./client
         ports:
           - 8080:80
-        # command: npm run dev
+        command: npm run dev
         volumes:
             - ./client/src/:/app/src
 

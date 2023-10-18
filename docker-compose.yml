@@ -1,25 +1,14 @@
-# services:
-#     server:
-#         image: express-docker
-#         ports:
-#             - 5050:5000
-#     mongodb:
-#         image: mongo
-
-
 services:
     server:
         build: ./server
         ports:
             - 5050:5000
-        # command: npm run dev
         volumes:
             - ./server/src/:/app/src
     client:
         build: ./client
         ports:
           - 8080:80
-        # command: npm run dev
         volumes:
             - ./client/src/:/app/src
 

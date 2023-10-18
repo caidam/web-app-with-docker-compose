@@ -10,8 +10,8 @@ This project sets up a classic web application using Docker Compose, consisting 
 
 1. Clones this repository
 ``` bash
-    git clone <https://github.com/caidam/web-app-with-docker-compose.git>
-    cd <web-app-with-docker-compose>
+    git clone https://github.com/caidam/web-app-with-docker-compose.git
+    cd web-app-with-docker-compose
 ```
 
 2. Build and start the containers using Docker Compose:
